@@ -1,2 +1,2 @@
 # libGDX-Alejandria
-This repo holds all the knowledge Soon&trade; about libGDX you will ever need
+This repo will Soon&trade; hold all the knowledge about libGDX you will ever need
