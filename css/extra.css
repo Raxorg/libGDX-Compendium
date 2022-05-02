@@ -16,6 +16,10 @@ p {
     text-align: justify;
 }
 
+#alejandria-container {
+    padding-bottom: 620px;
+}
+
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
