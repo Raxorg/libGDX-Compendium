@@ -1,32 +1,56 @@
----
----
 <!doctype html>
-  <body>
-    <h2>In the beginning</h2>
-    <p>Welcome to this amazing page</p>
-    <h3>Embedding a libGDX html inside another html</h3>
-    <p>The research results will be posted here</p>
-    
-    <style>
-      .embed-container { 
-        position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
-      }
-      .embed-container iframe , .embed-container object, .embed-container embed {
-        position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
-      }
-    </style>
-    
+
+<head>
+  <link rel="stylesheet" href="css/hacker.css">
+  <link rel="stylesheet" href="css/extra.css">
+</head>
+
+<body>
+  <!-- Intro-->
+  <div>
+    <h1>libGDX Compendium</h1>
+    <p class="intro">
+      Welcome to the Open-Sauce compendium of libGDX knowledge aiming to be the
+      go-to page when any info about libGDX is required<br />
+      <a class="intro" href="https://github.com/Raxorg/libGDX-Compendium">
+        Check this page's repo
+      </a>
+    </p>
+  </div>
+  <!-- Embedding a libGDX app on a web page-->
+  <details>
+    <summary>
+      Embedding a libGDX app on a web page
+    </summary>
+    <p>
+      For this compendium to be as beautiful as it is, I wanted to be able to add
+      interactive mini apps or demos alongside code snippets to the page so people would
+      see the results of the guide, tutorial or documentation they're following.
+      In order to achieve this I followed these steps:
+    </p>
+    <li>
+      Have the app published somewhere on the web
+    </li>
+    <li>
+      Use an iframe element to include the app on a page
+    </li>
+  </details>
+  <!-- Masking-->
+  <details>
+    <summary>Masking</summary>
+    <p>This wonderful demo by <a href="https://github.com/raeleus">raeleus</a>
+      illustrates different masking techniques shown in
+      <a href="https://www.youtube.com/watch?v=qDKmcNFFFng">this video</a>
+      and described in detail at the
+      <a href="https://libgdx.com/wiki/graphics/2d/masking">masking section</a> of
+      the libGDX Wiki. Find this demo's repo
+      <a href="https://github.com/raeleus/masks-example-project">here</a>
+    </p>
     <div class='embed-container'>
-      <iframe src='https://raeleus.github.io/masks-example-project/' style='border:0'></iframe>
-    </div>    
-    
-    <div class='embed-container'>
-      <iframe src='https://lyze237.github.io/libgdx-examples-demo/A/B/Thing/index.html' style='border:0'></iframe>
+      <iframe src='https://raeleus.github.io/masks-example-project' style='border:0'></iframe>
     </div>
-    
-    <div class='embed-container'>
-      <iframe src='https://lyze237.github.io/libgdx-examples-demo/Thing%20-%20Copy%20(2)/index.html' style='border:0'></iframe>
-    </div>
-    
-  </body>
+  </details>
+
+</body>
+
 </html>
